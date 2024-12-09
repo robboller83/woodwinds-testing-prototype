@@ -1,0 +1,116 @@
+<!-- This is the about us page with a little more detail about the company-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WoodWinds Didgeridoo</title>
+    <!-- For consistency I use a Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- This is the Content Security Policy that I have added to the head of the page to help protect the site from malicious attacks -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="script-src 'nonce-{random}' 'strict-dynamic' https: 'unsafe-inline'; object-src 'none'; base-uri 'none';">-->
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html">
+                <img src="logo/logo1.png" alt="logo of woodwinds">
+            </a>
+
+            <!-- Navbar Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Left-aligned Links -->
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tutorial.html">Tutorial Video</a>
+                    </li>
+                </ul>
+
+                <!-- Right-aligned Links -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="form.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+    <!-- This is the end of the header. Again, I have worked on keeping a consistent main 
+         that will load fast and respond well to different size screens. -->
+         <main class="container text-center py-5"> <!-- We can set some inline attributes on the main container of this page-->
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"> <!-- TODO: Replace inline attribute with a class for use in styles.css -->
+                    <img src="image/standing_on_hill_colorful.webp" alt="Man playing on a hill" width="400" height="150" class="d-inline-block align-text-top">
+                    </a>
+     <h1>Welcome to WoodWinds Didgeridoo</h1>
+    <!--<p>Your one-stop shop for didgeridoo tutorials and resources.</p> this was the original text I expanded on-->
+    <p>Welcome to your ultimate destination for everything related to the didgeridoo!<br>
+    Whether you're a beginner eager to learn the basics or a seasoned player looking to refine your skills, we've got you covered.<br>
+    Explore a wide range of tutorials, tips, and techniques designed to help you master this unique and captivating instrument.<br>
+    In addition to step-by-step guides, you'll find resources on didgeridoo history, maintenance, cultural significance,<br>
+    and how to choose the perfect instrument for your style.<br>
+    Dive in and let us be your guide on this exciting musical journey!</p>
+    </main>
+    <div class="container text-center py-5">
+        <body>
+            <!-- Original About Us Section -->
+            <!--
+            <h1>About Us</h1>
+            <p>I am a passionate traditional player of this beautiful instrument played for over 55,000 years by the Australian Aboriginal People.
+                Known as the Didgeridoo, I have been playing for over 20 years and have been teaching for over 10 years. I have been teaching
+                people from all walks of life and all ages. Now I am looking to teach you how to play this beautiful instrument.
+            </p>
+            -->
+
+            <!-- Expanded and Professional About Us Section -->
+            <h1>About Us</h1>
+            <p>Welcome to WoodWinds Didgeridoo, where tradition meets passion. Our founder, a dedicated player of the didgeridoo, has been immersed in the rich heritage of this ancient instrument for over two decades. With a deep respect for the Australian Aboriginal culture, which has cherished the didgeridoo for over 55,000 years, we aim to share this extraordinary musical tradition with the world.</p>
+            <p>With more than 20 years of playing experience and over a decade of teaching, our founder has guided individuals from diverse backgrounds and all age groups in mastering the didgeridoo. Our mission is to provide comprehensive and accessible instruction to help you discover the joy and depth of playing this unique instrument. Join us on a journey to explore the captivating sounds and cultural significance of the didgeridoo.</p>
+            </p>
+            </div>
+            <!-- This is the team section of the website and also contains a sticker logo made for more band recognition -->
+            <section>
+                <div class="container text-center py-5">
+                <h2>Our Team</h2>
+                <h3>Rob Boller & Wife Becc Boller</h3>
+                    <p>Founder's and CEO</p>
+                    <img src="logo/logo2.png" class="img-fluid" alt="our sticker">                     
+            </section>
+    </main>
+<section>
+       <div class="container text-center py-5">
+        <h2>Get in Touch</h2>
+        <p>Email us at: <a href="mailto:info@woodwinds.com">info@woodwinds.com</a></p>
+    </div>
+        </section>
+        <footer class="bg-dark text-white text-center py-3">
+            <p>&copy; 2024 WoodWinds Didgeridoo Prototype. All Rights Reserved.</p>
+             <!-- jQuery CDN to keep a consistent look -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Custom jQuery Script --> 
+    <!--<script src="script.js"></script>-->
+
+     <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+             
+        </footer>
+</body>
+</html>

@@ -1,0 +1,135 @@
+/* Body for all html for a consistent theme */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #fdf0e6, #fbe5d4); /* Warm gradient */
+    color: #333; /* Neutral text color */
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
+}
+
+/* Header */
+header {
+    background-color: #633d1a; /* Rich earthy tone */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .btn-primary {
+    margin-bottom: 10px; /* Spacing between button and header img */
+}
+
+header h2 {
+    margin-top: 20px; /* Spacing between header and main content */
+}
+
+header p {
+    color: #ffd700;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 300px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #83583a; /* Slightly lighter than header */
+    border-bottom: 2px solid #633d1a;
+}
+
+.navbar .nav-link {
+    text-align: left;
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #ffd700; /* Gold highlight on hover to improve UX, UI */
+}
+
+/* Main Content helping to maintain consistency */
+main {
+    padding: 50px 20px;
+    text-align: center;
+    background: linear-gradient(to top, #fdf0e6, #ffe4c3); /* Subtle gradient */
+    border-top: 4px solid #633d1a;
+}
+
+main h1 {
+    color: #633d1a;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+body h1, body h2 {
+    color: #633d1a;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    margin-bottom: 20px;
+    border: 5px solid #ffd700; /* Frame to match gold accents */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #633d1a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: bottom;    
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Buttons */
+button {
+    background-color: #83583a;
+    color: white;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffd700; /* Gold hover effect */
+    color: #633d1a;
+}
+
+th {
+    text-align: -webkit-match-parent;
+}
+
+.form-check-input {
+    forced-color-adjust: exact;
+}
